@@ -1,0 +1,99 @@
+.herosection-img-container{
+    padding: 0;
+    margin: 0;
+}
+
+.herosection-img-container img{
+    /* background: url('./../../images/HeroSection/Hero Section.png'); */
+    background-size: cover;
+    background-position: center;
+    height: 763px;
+    /* position: relative; */
+    /* z-index: -1; */
+    width: 100%;
+    /* height: fit-content; */
+    object-fit: cover;
+}
+
+.herosection-inner-container{
+    background: linear-gradient(to right, #4DCA79, #1CBDDD);
+        width: 630px;
+        height: 306px;
+        padding: 24px 40px 32px 40px;
+        left: 80px;
+        top: 354px;
+        position: absolute;
+        text-transform: capitalize;
+}
+
+.herosection-inner-container p{
+    color: #FFFFFF;
+    line-height: 49px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .herosection-inner-container{
+        left: 60px;
+        top: 354px;
+        width: 622px;
+        
+    }
+    .herosection-inner-container p{
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: -2%;
+    }
+
+    .herosection-img-container img {
+        height: 700px;
+        object-fit: cover;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .herosection-inner-container{
+        width: 100%;
+        position: inherit;
+        margin: 0;
+    }
+    
+    .herosection-img-container img {
+        height: fit-content;
+        object-fit: cover;
+        background-size: cover;
+    }
+        .herosection-inner-container p {
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: -2%;
+        }
+        
+}
+@media screen and (max-width: 400px) {
+    
+    .herosection-inner-container{
+        width: 100vw;
+        position: inherit;
+        margin: 0;
+        padding: 24px 20px 32px 20px;
+    }
+    
+    .herosection-img-container img {
+        height: fit-content;
+        object-fit: cover;
+        background-size: cover;
+    }
+    .herosection-inner-container p{
+        color: #FFFFFF;
+        line-height: 36px;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: -2%;
+    }
+}
+

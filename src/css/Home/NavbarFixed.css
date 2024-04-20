@@ -1,0 +1,24 @@
+#navbar-container{
+    background-color: #6B3CC9;
+    height: 77px;
+}
+
+#navbar-logo{
+    padding-left: 10vw;
+}
+#navbar-links{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+/* resonsiveness handling */
+
+@media screen and (max-width: 769px) {
+    .navbar-collapse-div{
+        background-color: #6B3CC9;
+    }
+    
+}

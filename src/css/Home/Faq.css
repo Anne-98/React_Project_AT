@@ -1,0 +1,17 @@
+#faq-container{
+    width: 80vw;
+    margin: 0 auto;
+}
+.faq-row{
+    background: #FAF8FF;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 24px;
+}
+
+.faq-row p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6F6C90;;
+}
